@@ -1,0 +1,31 @@
+<html>
+<head>
+  <title>Create Table</title>
+  <script type="text/javascript">
+    var rows = prompt("Rows");
+    var cols = prompt("Columns");
+
+    createTable(rows, cols);
+    function createTable(rows, cols)
+    {
+      var j=1;
+      var output = "<table border='3' width='70' cellspacing='0'cellpadding='5'>";
+      for(i=1;i<=rows;i++)
+      {
+    	output = output + "<tr>";
+        while(j<=cols)
+        {
+  		  output = output + "<td>" + "</td>";
+   		  j = j+1;
+   		}
+   		 output = output + "</tr>";
+   		 j = 1;
+    }
+    output = output + "</table>";
+    document.write(output);
+    }
+  </script>
+</head>
+<body>
+</body>
+</html>

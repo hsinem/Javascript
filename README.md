@@ -10,3 +10,4 @@
 * Sorting Algorithms
 * Create Table
 * Pop up
+* Horoscopes

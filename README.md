@@ -6,3 +6,5 @@
 * Fibonacci
 * Calculator
 * Number Guess
+* Reverse String
+* Sorting Algorithms

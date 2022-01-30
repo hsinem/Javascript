@@ -1,0 +1,26 @@
+<html>  
+<head>  
+<title> Fibonacci in JavaScript </title>  
+</head>  
+<body>  
+<script>  
+ 
+var num = parseInt (prompt (" Enter number "));  
+factorial=1;
+
+if(num<0)
+document.write( "Invalid input");  
+
+if(num==0)
+document.write( "Factorial= 1");  
+
+if (num>1){
+    for ( i = 1; i <= num; i++)     
+        {  
+        factorial=factorial*i; 
+        }  
+    document.write ("Factorial= " +  factorial); 
+} 
+</script>  
+</body>  
+</html>  

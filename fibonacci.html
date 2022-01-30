@@ -1,0 +1,20 @@
+<html>  
+<head>  
+<title> Fibonacci in JavaScript </title>  
+</head>  
+<body>  
+<script>  
+
+var n1 = 0,  n2 = 1, nth, i;  
+var num = parseInt (prompt (" Enter number "));  
+document.write( "Fibonacci Serie: ");  
+for ( i = 1; i <= num; i++)  
+{  document.write (" <br> " +  n1); 
+    nth = n1 + n2;
+    n1 = n2;
+    n2 = nth; 
+}  
+  
+</script>  
+</body>  
+</html>  

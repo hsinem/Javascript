@@ -1,0 +1,22 @@
+<html>
+<head>
+<title>Pop-up</title>
+
+<script type="text/javascript">
+
+	function trigger()
+	{
+	document.getElementById("hover").addEventListener("mouseover", popup);
+	function popup()
+	{
+	alert("Welcome");
+	}
+	}
+	</script>
+	</head>
+
+	<body  onload="trigger();">
+	<p id="hover">click</p>
+	</body>
+
+	</html>
